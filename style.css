@@ -1,0 +1,34 @@
+#wrapper {
+    margin: 50px 15vw;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#console {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#grid {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.gridSquare {
+    position: relative;
+    aspect-ratio: 1/1;
+    background-color: black;
+    margin: 0.5px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+}
